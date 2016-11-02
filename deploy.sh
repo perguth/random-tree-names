@@ -13,6 +13,7 @@ cp -r vendor deploy
 cp -r css deploy
 
 cd deploy
+touch .nojekyll
 git add .
 git commit -am 'update'
 git push origin gh-pages
