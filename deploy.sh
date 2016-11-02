@@ -15,7 +15,7 @@ cp -r css deploy
 cd deploy
 git add .
 git commit -am 'update'
-git push
+git push origin gh-pages
 cd ..
 
 rm -rf deploy
