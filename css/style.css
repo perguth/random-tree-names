@@ -1,62 +1,61 @@
+html, body {
+  background-color: #75c0d1;
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+  color: #333;
+}
+main {
+  width: 400px;
+  margin: -50px auto 0;
+}
+#aligner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
 
-  html, body {
-    background-color: #75c0d1;
-    font-family: sans-serif;
-    height: 100%;
-    margin: 0;
-    color: #333;
-  }
-  main {
-    width: 400px;
-    margin: -50px auto 0;
-  }
-  #aligner {
-    height: 100%;
-    display: flex;
-    align-items: center;
-  }
 
-
-  h1 span {
-    font-size: 0.5em;
-    display: block;
-    font-style: italic;
-  }
-  h1 {
-    color: white;
-    font-size: 41px;
-    border-radius: 3px;
-    margin: 0 0 16px;
-    opacity: 0.7;
-  }
-  h1 span {
-    color: white;
-    text-align:center;
-  }
-  p {
-    margin: 14px 0 0;
-  }
-  footer {
-    margin: 14px 0 0;
-    font-size: 12px;
-    text-align: center;
-    color: white;
-    opacity: 0.7;
-  }
-  footer a {
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  footer a:hover {
-   text-decoration:underline;
-  }
-  footer a.github::before{
-   content: '';
-   background: url(../vendor/github.png) no-repeat;
-   background-size: 10px;
-   display: inline-block;
-   width: 12px;
-   height: 10px;
-   margin-left: 2px;
-  }
+h1 span {
+  font-size: 0.5em;
+  display: block;
+  font-style: italic;
+}
+h1 {
+  color: white;
+  font-size: 41px;
+  border-radius: 3px;
+  margin: 0 0 16px;
+  opacity: 0.7;
+}
+h1 span {
+  color: white;
+  text-align:center;
+}
+p {
+  margin: 14px 0 0;
+}
+footer {
+  margin: 14px 0 0;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  opacity: 0.7;
+}
+footer a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+footer a:hover {
+ text-decoration:underline;
+}
+footer a.github::before{
+ content: '';
+ background: url(../vendor/github.png) no-repeat;
+ background-size: 10px;
+ display: inline-block;
+ width: 12px;
+ height: 10px;
+ margin-left: 2px;
+}
