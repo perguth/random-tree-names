@@ -1,0 +1,39 @@
+<!doctype html>
+<title>Random tree names</title>
+<meta name=description content="Random tree names for all your things!">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<meta charset=utf-8>
+
+<link rel=stylesheet href=css/style.css>
+<link rel=stylesheet href=css/clipboard.css>
+
+<div id=aligner>
+  <main>
+    <section>
+      <header>
+        <h1>
+          Random tree names
+          <span>… for all your things!</span>
+        </h1>
+      </header>
+      <div class="input-group">
+        <input id=text-field type=text>
+        <span class="input-group-button">
+          <button class="btn" data-clipboard-target=#text-field>
+            <img class="clippy" src=vendor/clippy.svg alt="Copy to clipboard">
+          </button>
+        </span>
+      </div>
+      <p>
+        <button onclick=window.getTreeName(event) class="btn new-name-btn">Get another tree name!</button>
+      </p>
+    </section>
+
+    <footer>
+      Tree names taken from <a href=http://www.baumkunde.de/baumlisten/baumliste_az.php>baumkunde.de</a>.<br>
+      Source code hosted on <a class="github" href=>Github</a>.
+    </footer>
+  </main>
+</div>
+
+<script src=bundle.js></script>

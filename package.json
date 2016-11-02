@@ -1,0 +1,36 @@
+{
+  "name": "random-tree-names",
+  "version": "1.0.0",
+  "description": "Get tree names for naming of things.",
+  "main": "index.js",
+  "dependencies": {
+    "clipboard": "^1.5.15",
+    "unique-random-array": "^1.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "budo": "^9.2.1",
+    "standard": "^8.5.0",
+    "tape": "^4.6.2"
+  },
+  "scripts": {
+    "test": "standard && tape test.js",
+    "start": "budo --live --host localhost index.js:bundle.js",
+    "build": "browserify index.js -o bundle.js"
+  },
+  "author": "Per Guth <mail@perguth.de>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pguth/random-tree-names.git"
+  },
+  "keywords": [
+    "names",
+    "random",
+    "trees"
+  ],
+  "bugs": {
+    "url": "https://github.com/pguth/random-tree-names/issues"
+  },
+  "homepage": "https://github.com/pguth/random-tree-names#readme"
+}
