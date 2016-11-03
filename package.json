@@ -1,8 +1,10 @@
 {
   "name": "random-tree-names",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get tree names for naming of things.",
+  "bin": "cli.js",
   "main": "index.js",
+  "browser": "browser.js",
   "dependencies": {
     "clipboard": "^1.5.15",
     "unique-random-array": "^1.0.0"
@@ -15,7 +17,7 @@
   },
   "scripts": {
     "test": "standard && tape test.js",
-    "start": "budo --live --host localhost index.js:bundle.js",
+    "start": "budo --live --host localhost test2.js:bundle.js",
     "build": "browserify index.js -o bundle.js"
   },
   "author": "Per Guth <mail@perguth.de>",

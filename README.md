@@ -2,7 +2,7 @@
 
 > Get random tree names for all your things!
 
-[![screenshot](assets/161102 sceenshot.png)](https://pguth.github.io/random-tree-names/)
+[![screenshot](docs/161102 sceenshot.png)](https://pguth.github.io/random-tree-names/)
 
 ## Tree name sources
 
