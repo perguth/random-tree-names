@@ -65,6 +65,7 @@ $ random-tree-names --help
 
 ## Related
 
+- [cat-names](https://github.com/sindresorhus/cat-names) - Get popular cat names
 - [dog-names](https://github.com/sindresorhus/dog-names) - Get popular dog names
 - [pokemon](https://github.com/sindresorhus/pokemon) - Get Pokémon names
 - [superb](https://github.com/sindresorhus/superb) - Get superb like words
@@ -75,4 +76,4 @@ $ random-tree-names --help
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT
