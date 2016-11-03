@@ -55,19 +55,19 @@ $ npm install -g random-tree-names
 ```
 
 ```
-$ random-tree-names --help
+$ random-tree-name --help
 
-  Examples
-    $ random-tree-names
-    Max
+Usage:
+  $ random-tree-names
 
-    $ random-tree-names --all
-    Abby
-    Angel
-    ...
+Commands:
+  Options:
+    -h, --help      Print usage
+    -a, --all       Print all tree names
 
-  Options
-    --all   Get all names instead of a random name
+Examples:
+  $ random-tree-names                       # prints a random tree name
+  $ random-tree-names -a                    # lists all tree names
 ```
 
 
