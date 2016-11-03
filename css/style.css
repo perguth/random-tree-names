@@ -1,5 +1,5 @@
 html, body {
-  background-color: #75c0d1;
+  background-color: #889F57;
   font-family: sans-serif;
   height: 100%;
   margin: 0;
@@ -15,25 +15,24 @@ main {
   align-items: center;
 }
 
-
+h1, h1 span {
+  color: #333;
+  text-shadow: 1px 1px 1px #DEC05D;
+}
 h1 span {
   font-size: 0.5em;
   display: block;
   font-style: italic;
+  text-align: center;
 }
 h1 {
-  color: white;
   font-size: 41px;
   border-radius: 3px;
   margin: 0 0 16px;
   opacity: 0.7;
 }
-h1 span {
-  color: white;
-  text-align:center;
-}
 p {
-  margin: 14px 0 0;
+  margin: 8px 0 0;
 }
 footer {
   margin: 14px 0 0;

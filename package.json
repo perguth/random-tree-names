@@ -17,7 +17,7 @@
   },
   "scripts": {
     "test": "standard && tape test.js",
-    "start": "budo --live --host localhost test2.js:bundle.js",
+    "start": "budo --live --host localhost index.js:bundle.js",
     "build": "browserify index.js -o bundle.js"
   },
   "author": "Per Guth <mail@perguth.de>",
