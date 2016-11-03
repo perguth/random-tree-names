@@ -17,6 +17,8 @@ $ npm install random-tree-names
 
 ## Usage
 
+### Module
+
 ```js
 const treeNames = require('random-tree-names')
 
@@ -24,6 +26,12 @@ treeNames.random()
 // => 'chenault-schneebeere'
 ```
 
+### Browser
+
+```js
+npm start
+// => http://localhost:9966
+```
 
 ## API
 
