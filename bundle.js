@@ -1,28 +1,28 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+const Clipboard = require('clipboard')
+const x = require('./lib')
+
+window.getTreeName = getTreeName
+
+function getTreeName (e) {
+  var textField = document.getElementsByTagName('input')[0]
+  textField.value = x.random()
+  if (e) textField.select()
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  new Clipboard('.btn') // eslint-disable-line
+  getTreeName()
+}, false)
+
+},{"./lib":2,"clipboard":4}],2:[function(require,module,exports){
 const uniqueRandomArray = require('unique-random-array')
-const treeNames = require('./tree-names-de.json')
+const treeNames = require('../tree-names-de.json')
 
 exports.all = treeNames
 exports.random = uniqueRandomArray(treeNames)
 
-if (typeof window !== 'undefined') {
-  const Clipboard = require('clipboard')
-
-  window.getTreeName = getTreeName
-
-  function getTreeName (e) {
-    var textField = document.getElementsByTagName('input')[0]
-    textField.value = uniqueRandomArray(treeNames)()
-    if (e) textField.select()
-  }
-
-  document.addEventListener('DOMContentLoaded', function () {
-    new Clipboard('.btn') // eslint-disable-line
-    getTreeName()
-  }, false)
-}
-
-},{"./tree-names-de.json":12,"clipboard":3,"unique-random-array":10}],2:[function(require,module,exports){
+},{"../tree-names-de.json":13,"unique-random-array":11}],3:[function(require,module,exports){
 (function (global, factory) {
     if (typeof define === "function" && define.amd) {
         define(['module', 'select'], factory);
@@ -252,7 +252,7 @@ if (typeof window !== 'undefined') {
 
     module.exports = ClipboardAction;
 });
-},{"select":8}],3:[function(require,module,exports){
+},{"select":9}],4:[function(require,module,exports){
 (function (global, factory) {
     if (typeof define === "function" && define.amd) {
         define(['module', './clipboard-action', 'tiny-emitter', 'good-listener'], factory);
@@ -438,7 +438,7 @@ if (typeof window !== 'undefined') {
 
     module.exports = Clipboard;
 });
-},{"./clipboard-action":2,"good-listener":7,"tiny-emitter":9}],4:[function(require,module,exports){
+},{"./clipboard-action":3,"good-listener":8,"tiny-emitter":10}],5:[function(require,module,exports){
 /**
  * A polyfill for Element.matches()
  */
@@ -468,7 +468,7 @@ function closest (element, selector) {
 
 module.exports = closest;
 
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 var closest = require('./closest');
 
 /**
@@ -514,7 +514,7 @@ function listener(element, selector, type, callback) {
 
 module.exports = delegate;
 
-},{"./closest":4}],6:[function(require,module,exports){
+},{"./closest":5}],7:[function(require,module,exports){
 /**
  * Check if argument is a HTML element.
  *
@@ -565,7 +565,7 @@ exports.fn = function(value) {
     return type === '[object Function]';
 };
 
-},{}],7:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 var is = require('./is');
 var delegate = require('delegate');
 
@@ -662,7 +662,7 @@ function listenSelector(selector, type, callback) {
 
 module.exports = listen;
 
-},{"./is":6,"delegate":5}],8:[function(require,module,exports){
+},{"./is":7,"delegate":6}],9:[function(require,module,exports){
 function select(element) {
     var selectedText;
 
@@ -697,7 +697,7 @@ function select(element) {
 
 module.exports = select;
 
-},{}],9:[function(require,module,exports){
+},{}],10:[function(require,module,exports){
 function E () {
   // Keep this empty so it's easier to inherit from
   // (via https://github.com/lipsmack from https://github.com/scottcorgan/tiny-emitter/issues/3)
@@ -765,7 +765,7 @@ E.prototype = {
 
 module.exports = E;
 
-},{}],10:[function(require,module,exports){
+},{}],11:[function(require,module,exports){
 'use strict';
 var uniqueRandom = require('unique-random');
 
@@ -777,7 +777,7 @@ module.exports = function (arr) {
 	};
 };
 
-},{"unique-random":11}],11:[function(require,module,exports){
+},{"unique-random":12}],12:[function(require,module,exports){
 'use strict';
 module.exports = function (min, max) {
 	var prev;
@@ -787,7 +787,7 @@ module.exports = function (min, max) {
 	};
 };
 
-},{}],12:[function(require,module,exports){
+},{}],13:[function(require,module,exports){
 module.exports=[
   "abendlaendischer-lebensbaum",
   "afrikanischer-butterbaum",
