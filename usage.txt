@@ -1,0 +1,11 @@
+Usage:
+  $ random-tree-names
+
+Commands:
+  Options:
+    -h, --help      Print usage
+    -a, --all       Print all tree names
+
+Examples:
+  $ random-tree-names                       # prints a random tree name
+  $ random-tree-names -a                    # lists all tree names
