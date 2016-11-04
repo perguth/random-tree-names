@@ -9,6 +9,7 @@ cd ..
 
 cp bundle.js deploy
 cp index.html deploy
+cp favicon.ico deploy
 cp -r vendor deploy
 cp -r css deploy
 
