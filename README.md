@@ -2,22 +2,15 @@
 
 > Get random tree names for all your things!
 
-[![screenshot](docs/161102 sceenshot.png)](https://pguth.github.io/random-tree-names/)
-
-##### Tree name sources
-
-- **[de](tree-names-de.json)**: [baumkunde.de](http://www.baumkunde.de/baumlisten/baumliste_az.php)
-
-## Install
-
-```
-$ npm install random-tree-names
-```
-
+[![Screenshot](https://raw.githubusercontent.com/pguth/random-tree-names/master/docs/161104 screenshot.png)](https://pguth.github.io/random-tree-names/)
 
 ## Usage
 
 ### Module
+
+```
+$ npm install random-tree-names
+```
 
 ```js
 const treeNames = require('random-tree-names')
@@ -29,6 +22,9 @@ treeNames.random()
 ### Browser
 
 ```js
+git clone https://github.com/pguth/random-tree-names.git
+cd random-tree-names
+npm install
 npm start
 // => http://localhost:9966
 ```
@@ -39,13 +35,13 @@ npm start
 
 Type: `array`
 
-Top 100 cat names in alphabetical order.
+Tree names in alphabetical order.
 
 ### .random()
 
 Type: `function`
 
-Random cat name.
+Random tree name.
 
 
 ## CLI
@@ -70,6 +66,11 @@ Examples:
   $ random-tree-names -a                    # lists all tree names
 ```
 
+## Tree name sources
+
+- **[German](tree-names-de.json)**: [baumkunde.de](http://www.baumkunde.de/baumlisten/baumliste_az.php)
+
+If you know a good source for any other language please [open an issue](https://github.com/pguth/random-tree-names/issues).
 
 ## Related
 
