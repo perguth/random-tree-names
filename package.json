@@ -1,6 +1,6 @@
 {
   "name": "random-tree-names",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Get tree names for naming of things.",
   "bin": "./bin.js",
   "main": "index.js",
