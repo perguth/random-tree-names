@@ -31,6 +31,11 @@ h1 {
   margin: 0 0 16px;
   opacity: 0.7;
 }
+select {
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 7px;
+}
 p {
   margin: 8px 0 0;
 }

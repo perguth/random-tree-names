@@ -22,6 +22,11 @@
           <span>… for all your things!</span>
         </h1>
       </header>
+      <select onchange=window.setLanguage(event)>
+        <option value=null>All</option>
+        <option value=en>English</option>
+        <option value=de>German</option>
+      </select>
       <div class="input-group">
         <input id=text-field type=text readonly>
         <span class="input-group-button">
