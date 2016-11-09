@@ -22,6 +22,11 @@
           <span>… for all your things!</span>
         </h1>
       </header>
+      <select onchange=window.setLanguage(event)>
+        <option value=null>All</option>
+        <option value=en>English</option>
+        <option value=de>German</option>
+      </select>
       <div class="input-group">
         <input id=text-field type=text readonly>
         <span class="input-group-button">
@@ -36,7 +41,7 @@
     </section>
 
     <footer>
-      Tree names taken from <a href=http://www.baumkunde.de/baumlisten/baumliste_az.php>baumkunde.de</a>.<br>
+      Tree name sources are listed <a href=https://github.com/pguth/random-tree-names#tree-name-sources>here</a>.<br>
       Source code hosted on <a class="github" href=https://github.com/pguth/random-tree-names>Github</a>.
     </footer>
   </main>
