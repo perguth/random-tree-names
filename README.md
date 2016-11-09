@@ -2,13 +2,13 @@
 
 > Get random tree names for all your things!
 
-[![Screenshot](https://raw.githubusercontent.com/pguth/random-tree-names/master/docs/161104 screenshot.png)](https://pguth.github.io/random-tree-names/)
+[![Screenshot](docs/161104 screenshot.png)](https://pguth.github.io/random-tree-names/)
 
 ## Usage
 
 ### Module
 
-```
+```bash
 $ npm install random-tree-names
 ```
 
@@ -17,11 +17,16 @@ const treeNames = require('random-tree-names')
 
 treeNames.random()
 // => 'chenault-schneebeere'
+treeNames.random('en')
+// => 'flowering-almira-norway-maple'
+
 ```
+
+Currently we have tree names in `en` and `de`.
 
 ### Browser
 
-```js
+```bash
 git clone https://github.com/pguth/random-tree-names.git
 cd random-tree-names
 npm install
@@ -31,43 +36,47 @@ npm start
 
 ## API
 
-### .all
+#### `languages = randomTreeNames.languages()`
 
-Type: `array`
+All available language strings.
+
+#### `allTreeNames = randomTreeNames.all([language])`
 
 Tree names in alphabetical order.
 
-### .random()
-
-Type: `function`
+#### `allTreeNames = randomTreeNames.random([language])`
 
 Random tree name.
 
-
 ## CLI
 
-```
+```bash
 $ npm install -g random-tree-names
 ```
 
-```
+```bash
 $ random-tree-name --help
 
 Usage:
-  $ random-tree-names
+  $ random-tree-names [language]
 
 Commands:
+  <default>    Pick a random name from all languages
+
   Options:
-    -h, --help      Print usage
-    -a, --all       Print all tree names
+    -h, --help          Print usage
+    -a, --all           Print all tree names
+    -l, --languages     Print available language strings
 
 Examples:
   $ random-tree-names                       # prints a random tree name
   $ random-tree-names -a                    # lists all tree names
+  $ random-tree-names en -a                 # lists all english tree names
 ```
 
 ## Tree name sources
 
+- **[English](tree-names-en.json)**: [hort.ifas.ufl.edu](http://hort.ifas.ufl.edu/database/trees/trees_common.shtml)
 - **[German](tree-names-de.json)**: [baumkunde.de](http://www.baumkunde.de/baumlisten/baumliste_az.php)
 
 If you know a good source for any other language please [open an issue](https://github.com/pguth/random-tree-names/issues).

@@ -1,11 +1,15 @@
-Usage:
-  $ random-tree-names
+  Usage:
+    $ random-tree-names [language]
 
-Commands:
-  Options:
-    -h, --help      Print usage
-    -a, --all       Print all tree names
+  Commands:
+    <default>    Pick a random name from all languages
 
-Examples:
-  $ random-tree-names                       # prints a random tree name
-  $ random-tree-names -a                    # lists all tree names
+    Options:
+      -h, --help          Print usage
+      -a, --all           Print all tree names
+      -l, --languages     Print available language strings
+
+  Examples:
+    $ random-tree-names                       # prints a random tree name
+    $ random-tree-names -a                    # lists all tree names
+    $ random-tree-names en -a                 # lists all english tree names
