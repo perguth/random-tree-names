@@ -36,7 +36,7 @@ npm start
 
 ## API
 
-#### `languages = randomTreeNames.languages()`
+#### `languages = randomTreeNames.languages`
 
 All available language strings.
 
