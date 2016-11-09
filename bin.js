@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const x = require('./')
 const minimist = require('minimist')
 const path = require('path')
