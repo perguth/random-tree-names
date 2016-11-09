@@ -10,6 +10,7 @@ var lang = window.localStorage.getItem('language') || ''
 function setLanguage (e) {
   lang = e.target.options[e.target.selectedIndex].value
   window.localStorage.setItem('language', lang)
+  getTreeName(lang)
 }
 
 function getTreeName (e) {
