@@ -5,7 +5,6 @@ const minimist = require('minimist')
 const path = require('path')
 const fs = require('fs')
 
-var usage = fs.readFileSync(path.join(__dirname, 'usage.txt'), 'utf8')
 var argv = minimist(process.argv.slice(2), {
   boolean: [ 'help', 'all', 'languages' ],
   alias: { help: 'h', all: 'a', languages: 'l' }
@@ -13,6 +12,10 @@ var argv = minimist(process.argv.slice(2), {
 const lang = argv._[0]
 
 if (argv.help) {
+  let usage = fs.readFileSync(
+    path.join(__dirname, 'usage.txt'),
+    'utf8'
+  )
   console.log(usage)
   process.exit()
 }
