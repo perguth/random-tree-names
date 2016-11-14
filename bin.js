@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const x = require('./')
+const treeNames = require('./')
 const minimist = require('minimist')
 const path = require('path')
 const fs = require('fs')
@@ -21,13 +21,13 @@ if (argv.help) {
 }
 
 if (argv.languages) {
-  console.log(x.languages)
+  console.log(treeNames.languages)
   process.exit()
 }
 
 if (argv.all) {
-  console.log(x.all(lang))
+  console.log(treeNames.all(lang))
   process.exit()
 }
 
-console.log(x.random(lang))
+console.log(treeNames.random(lang))
