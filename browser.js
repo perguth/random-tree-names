@@ -1,5 +1,5 @@
 const Clipboard = require('clipboard')
-const x = require('./lib')
+const treeNames = require('./lib')
 
 window.getTreeName = getTreeName
 window.setLanguage = setLanguage
@@ -14,7 +14,7 @@ function setLanguage (e) {
 
 function getTreeName (e) {
   var textField = document.getElementsByTagName('input')[0]
-  textField.value = x.random(lang)
+  textField.value = treeNames.random(lang)
   // if (e) textField.select()
 }
 
