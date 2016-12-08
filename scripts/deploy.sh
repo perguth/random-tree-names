@@ -1,7 +1,5 @@
 #!/bin/bash
 
-cd ..
-
 git clone https://github.com/pguth/random-tree-names.git deploy
 cd deploy
 git checkout gh-pages
