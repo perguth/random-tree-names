@@ -34,6 +34,16 @@ npm start
 // => http://localhost:9966
 ```
 
+Or simply click here: https://pguth.github.io/random-tree-names/
+
+### Command-line interface
+
+```bash
+$ npm install -g random-tree-names
+$ random-tree-names de
+feuer-ahorn
+```
+
 ## API
 
 #### `languages = randomTreeNames.languages`
