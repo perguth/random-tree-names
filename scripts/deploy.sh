@@ -1,6 +1,6 @@
 #!/bin/bash
 
-npm run build
+cd ..
 
 git clone https://github.com/pguth/random-tree-names.git deploy
 cd deploy
@@ -9,7 +9,6 @@ cd ..
 
 cp bundle.js deploy
 cp index.html deploy
-cp favicon.ico deploy
 cp -r vendor deploy
 cp -r css deploy
 
