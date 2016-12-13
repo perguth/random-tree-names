@@ -2,7 +2,7 @@
   "name": "random-tree-names",
   "version": "3.0.4",
   "description": "Get tree names for naming of things.",
-  "bin": "./scripts/bin.js",
+  "bin": "./bin/cli.js",
   "main": "index.js",
   "browser": "browser.js",
   "dependencies": {
@@ -20,7 +20,7 @@
     "test": "standard && tape test.js",
     "start": "budo --live --host localhost index.js:bundle.js",
     "build": "browserify index.js -o bundle.js",
-    "deploy": "npm run build && bash ./scripts/deploy.sh"
+    "deploy": "npm run build && bash ./bin/deploy.sh"
   },
   "author": "Per Guth <mail@perguth.de>",
   "license": "MIT",
