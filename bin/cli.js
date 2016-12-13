@@ -1,15 +1,11 @@
 #!/usr/bin/env node
 
-const treeNames = require('./')
-const minimist = require('minimist')
+const treeNames = require('../')
+const argv = require('yargs').argv
 const path = require('path')
 const fs = require('fs')
 
-var argv = minimist(process.argv.slice(2), {
-  boolean: [ 'help', 'all', 'languages' ],
-  alias: { help: 'h', all: 'a', languages: 'l' }
-})
-const lang = argv._[0]
+var lang = argv._[0]
 
 if (argv.help) {
   let usage = fs.readFileSync(
