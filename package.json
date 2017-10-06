@@ -8,7 +8,7 @@
   "dependencies": {
     "clipboard": "^1.5.15",
     "unique-random-array": "^1.0.0",
-    "yargs": "^7.0.1"
+    "yargs": "^8.0.1"
   },
   "devDependencies": {
     "browserify": "^14.1.0",
