@@ -13,7 +13,7 @@
   "devDependencies": {
     "browserify": "^14.1.0",
     "budo": "^9.2.1",
-    "standard": "^8.5.0",
+    "standard": "^9.0.2",
     "tape": "^4.6.2"
   },
   "scripts": {
