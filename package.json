@@ -8,12 +8,12 @@
   "dependencies": {
     "clipboard": "^1.5.15",
     "unique-random-array": "^1.0.0",
-    "yargs": "^8.0.1"
+    "yargs": "^10.0.3"
   },
   "devDependencies": {
     "browserify": "^14.1.0",
     "budo": "^10.0.0",
-    "standard": "^9.0.2",
+    "standard": "^10.0.3",
     "tape": "^4.6.2"
   },
   "scripts": {
