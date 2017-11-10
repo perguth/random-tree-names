@@ -1,5 +1,7 @@
 # random-tree-names
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/perguth/random-tree-names.svg)](https://greenkeeper.io/)
+
 > Get random tree names for all your things!
 
 [![Screenshot](docs/161109 screenshot.png)](https://perguth.github.io/random-tree-names/)
