@@ -11,7 +11,7 @@
     "yargs": "^10.0.3"
   },
   "devDependencies": {
-    "browserify": "^14.1.0",
+    "browserify": "^15.1.0",
     "budo": "^10.0.0",
     "standard": "^10.0.3",
     "tape": "^4.6.2"
