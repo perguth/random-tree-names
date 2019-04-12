@@ -7,7 +7,7 @@
   "browser": "browser.js",
   "dependencies": {
     "clipboard": "^1.5.15",
-    "unique-random-array": "^1.0.0",
+    "unique-random-array": "^2.0.0",
     "yargs": "^10.0.3"
   },
   "devDependencies": {
