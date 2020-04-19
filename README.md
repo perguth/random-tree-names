@@ -56,7 +56,7 @@ All available language strings.
 
 Tree names in alphabetical order.
 
-#### `allTreeNames = randomTreeNames.random([language])`
+#### `treeName = randomTreeNames.random([language])`
 
 Random tree name.
 
