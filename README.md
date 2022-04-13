@@ -4,7 +4,7 @@
 
 > Get random tree names for all your things!
 
-[![Screenshot](docs/161109 screenshot.png)](https://perguth.github.io/random-tree-names/)
+[![Screenshot](docs/161109%20screenshot.png)](https://perguth.github.io/random-tree-names/)
 
 ## Usage
 
