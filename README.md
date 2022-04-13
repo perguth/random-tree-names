@@ -27,7 +27,7 @@ Currently we have tree names in `en` and `de`.
 ### Browser
 
 ```bash
-git clone https://github.com/pguth/random-tree-names.git
+git clone https://github.com/perguth/random-tree-names.git
 cd random-tree-names
 npm install
 npm start
