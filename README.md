@@ -2,6 +2,8 @@
 
 > Get random tree names for all your things!
 
+Usable as module, command-line interface and website:
+
 [![Screenshot](docs/161109%20screenshot.png)](https://perguth.github.io/random-tree-names/)
 
 ## Usage
