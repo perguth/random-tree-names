@@ -88,8 +88,8 @@ Examples:
 
 ## Tree name sources
 
-- **[English](tree-names-en.json)**: [hort.ifas.ufl.edu](http://hort.ifas.ufl.edu/database/trees/trees_common.shtml)
-- **[German](tree-names-de.json)**: [baumkunde.de](http://www.baumkunde.de/baumlisten/baumliste_az.php)
+- **[English](tree-names/tree-names-en.json)**: [hort.ifas.ufl.edu](http://hort.ifas.ufl.edu/database/trees/trees_common.shtml)
+- **[German](tree-names/tree-names-de.json)**: [baumkunde.de](http://www.baumkunde.de/baumlisten/baumliste_az.php)
 
 If you know a good source for any other language please [open an issue](https://github.com/pguth/random-tree-names/issues).
 
